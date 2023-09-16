@@ -69,3 +69,28 @@ Example  |  Internet  |  Telephone networks  |
 - Network performance
   - __Queuing delay__
   - __Packet loss__
+- Suppose Host A and B are sending packets to Host E. Hosts A and B first send their packets along 10 Mbps links to the first router. The router then directs these packets to the 1.5 Mbps link. If, during a short interval of time, the arrival rate of packets to the router exceeds 1.5 Mbps, congestion拥塞/过剩 will occur at the router as the queue becomes full. This increases _queuing delay_ and _packet loss_.
+
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/5d11eeb2-cf06-427b-ae3b-0921ab533f6c)
+
+- __Routing protocol__
+  - Each router __determine the shortest path to each destination__ and __use the shortest path to configure its forwarding table__
+
+- __Forwarding table__
+  - Each host __has IP address__. Each router uses a forwarding table __to map a destination IP address to one of its outgoing links__.
+
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/b14d7ef9-470e-469b-8aaf-16718669eef8)
+
+### The Network Core: Circuit Switching
+- 2 types:
+1. ___Frequency-Division Multiplexing (FDM)___
+   - A link dedicate a frequency band to each connection
+     - The width of the frequency band indicate bandwidth
+     - Example: 4kHz
+2. ___Time-Division Multiplexing (TDM)___
+   - A link dedicate one time slot in every frame to each connection
+     - Note:
+     1. Time is divided into fixed duration frames
+     2. Each frame is divided into a fixed number of time slots
+
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/bff08018-8085-4c23-8bb8-399185e8258b)
