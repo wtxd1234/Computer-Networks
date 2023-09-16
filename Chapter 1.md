@@ -98,3 +98,7 @@ Example  |  Internet  |  Telephone networks  |
 |      | Packet switching | Circuit switching |
 | --- | --- | --- |
 | Performance Efficiency | Higher<br>&bull;No reservation<br>&emsp;&bull;More sharing of link capacity | Lower<br>&bull;Require reservation<br>&emsp;&bull;Reserved resources may not be fully utilized<br>&emsp;&bull;Reserved resources may not be sufficient<br>&emsp;&emsp;&bull;Underutilized reserved resources cannot be used for other packets |
+| Packets need to wait at queue? | Yes<br>&bull;There is variable and umpredictable delay<br>&bull;Not suitable for real-time service | No<br>&bull;Reserved resource provides guaranteed constant rate |
+| Complexity | Lower | Higher<br>&bull;Reservation requires end-to-end signaling protocol |
+| Cost Efficiency | Higher<br>&bull;No reservation<br>&emsp;&bull;Less cost involve | Lower |
+| Popularity | More popular | Less popular |
