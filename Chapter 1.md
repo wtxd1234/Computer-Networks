@@ -58,7 +58,7 @@
 |        |  Packet switching  |  Circuit switching  |
 |  ---  |  --- |  --- |
 |  Requirement on end-to-end resource reservation  |  No  |  Yes  |
-| A source host wants to communicate with a destination host  | It uses resources (e.g., bandwidth) along a path from the source host to the destination host in an on-demand manner.  |  It must _reserve_ resources along a path (called __circuit__ or __dedicated end-to-end connection__) from source host to destination host. The resource must be reserved for the _entire duration of the communication session_.  |
+| A source host wants to communicate with a destination host  | It uses resources (e.g., bandwidth) along a path from the source host to the destination host in an on-demand manner.  |  It must _reserve_ resources along a path (called __circuit__ or __dedicated end-to-end connection__) from source host to destination host. <br><br>The resource must be reserved for the _entire duration of the communication session_.  |
 Example  |  Internet  |  Telephone networks  |
 
 ### The Network Core: Packet Switching
@@ -94,3 +94,7 @@ Example  |  Internet  |  Telephone networks  |
      2. Each frame is divided into a fixed number of time slots
 
 ![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/bff08018-8085-4c23-8bb8-399185e8258b)
+
+|      | Packet switching | Circuit switching |
+| --- | --- | --- |
+| Performance Efficiency | Higher<br>&bull;No reservation<br>&emsp;&bull;More sharing of link capacity | Lower<br>&bull;Require reservation<br>&emsp;&bull;Reserved resources may not be fully utilized<br>&emsp;&bull;Reserved resources may not be sufficient<br>&emsp;&emsp;&bull;Underutilized reserved resources cannot be used for other packets |
