@@ -61,6 +61,18 @@
 | A source host wants to communicate with a destination host  | It uses resources (e.g., bandwidth) along a path from the source host to the destination host in an on-demand manner.  |  It must _reserve_ resources along a path (called __circuit__ or __dedicated end-to-end connection__) from source host to destination host. <br><br>The resource must be reserved for the _entire duration of the communication session_.  |
 Example  |  Internet  |  Telephone networks  |
 
+- switching
+  1. Switching from one router to the other
+     - switch from one network to the other
+     - switch btw different network devices
+     - e.g.: packet & circuit
+  2. Switching depend on:
+     - Efficiency & Intelligence
+       - Efficiency: use less amount of resources
+       - Intelligence: able to choose the most suitable path to transmission
+  
+- bandwidth: range of frequencies which include the information to transmit (it is a type of resource)
+
 ### The Network Core: Packet Switching
 - Main concept
   -  ___Store-and-Forward Transmission___
