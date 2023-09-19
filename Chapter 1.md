@@ -83,6 +83,18 @@ Example  |  Internet  |  Telephone networks  |
   - __Packet loss__
 - Suppose Host A and B are sending packets to Host E. Hosts A and B first send their packets along 10 Mbps links to the first router. The router then directs these packets to the 1.5 Mbps link. If, during a short interval of time, the arrival rate of packets to the router exceeds 1.5 Mbps, congestion拥塞/过剩 will occur at the router as the queue becomes full. This increases _queuing delay_ and _packet loss_.
 
+```
+Just imagine that parking is limited parking while you're finding parking.
+Parking is full then you cannot park there.
+This is the idea of PACKET LOSS.
+
+To get parking, you have to wait for parking.
+The more cars in the parking, you need to queue for a longer time.
+This is the idea of QUEUING DELAY.
+
+```
+
+
 ![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/5d11eeb2-cf06-427b-ae3b-0921ab533f6c)
 
 - __Routing protocol__
