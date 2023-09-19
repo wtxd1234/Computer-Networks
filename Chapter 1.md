@@ -76,7 +76,7 @@ Example  |  Internet  |  Telephone networks  |
 ### The Network Core: Packet Switching
 - Main concept
   -  ___Store-and-Forward Transmission___
-    -  Packet switch must receive (store) all bits of a packet, then only it can transmit (forward) the first bit of the packet
+      -  Packet switch must receive (store) all bits of a packet, then only it can transmit (forward) the first bit of the packet
 
 - Network performance
   - __Queuing delay__
