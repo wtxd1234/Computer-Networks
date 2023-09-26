@@ -141,7 +141,7 @@ This is the idea of QUEUING DELAY.
   - Packets arriving at a __full queue__ will cause __packet drop__
     - Lost packet may be __retransmitted__
 
-- ___Throughput吞吐量___
+- ___Throughput吞吐量___ (Only counted only when the transmission is successful)
   - __Rate__ (bits/seconds) at which bits are transferred between 
 __source host and destination host__
   - 2 types
@@ -150,12 +150,54 @@ __source host and destination host__
     - ___Average throughput___
       - Rate over a __longer period of time__
 
-- ___Bottleneck link___
+- ___Bottleneck link___ (slowing down the speed)
   - Link on end-to-end path that constraints end-to-end throughput
   - What is the bottleneck bandwidth in each of the following scenarios?
-    - __min{ RC, RS}__
+    - __min{ R<sub>c</sub>, R<sub>s</sub>}__
   - What is the end-to-end delay in each of the following scenarios?
-    - __F / min{ RC , RS}__
+    - __F / min{ R<sub>c</sub> , R<sub>s</sub>}__
    
 ![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/06f24d1e-a18a-4a78-b77a-20dbb63c9957)
 
+- ___Internet___
+  - What is the end-to-end delay in the following scenario?
+    - For a particular connection, the end-to-end delay is F / min{ R<sub>c</sub>, R<sub>s</sub>}. This is because, 
+in Internet, R >> R<sub>s</sub> and R >> R<sub>c</sub>, and so the bottleneck link occurs at the access network
+
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/f7a64ee3-c50d-4c0b-af61-cf6470898926)
+
+### Protocol Layers and Their Service Models
+
+- Protocol stack
+  - Two types
+    - ___Internet Protocol Stack___
+    - ___ISO Open Systems 
+Interconnection (OSI) 
+Reference Model___
+- Each layer
+  - Perform certain actions
+  - Use services of the layer directly 
+below it
+- Layering 
+  - Divide a complex system into layers
+  - Advantage
+    - Can maintain and update each 
+layer without affecting the 
+entire system
+  - Disadvantage
+    - Similar functions in more than 
+one layer
+      - E.g.: error recovery in the link 
+layer and network layer
+
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/70c5a9aa-c2cd-4f55-a556-c2ace89a890c)
+
+### Layered Architecture
+
+| Layer | Packet | Functions |
+| --- | --- | --- |
+| Application Layer | Message | &bull;Support network applications<br> &bull;Provide Domain Name System (DNS)<br> &emsp;&bull;Translate address (e.g., www.ietf.org to 32-bit address)<br> &bull;Examples: HTTP, email |
+| Transport Layer | Segment | &bull;Break a long message into shorter segment<br>&bull;Reduce source host transmission rate during congestion<br>&bull;Examples: transmission control protocol (TCP), user datagram protocol (UDP) |
+| Network Layer | Datagram | &bull;Determine routes between source host and destination host<br>&bull;Example: IP Protocol|
+| Link Layer (Ethernet, WiFi) | Frame | &bull;Transmit frame from a transmitting host to a receiving host over one link<br>&bull;Example: Ethernet, WiFi | 
+| Physical Layer | Bit | &bull; Transmit bits on physical media (e.g., wireless, fiber optic) | 
