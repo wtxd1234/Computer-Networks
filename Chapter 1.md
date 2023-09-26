@@ -126,3 +126,36 @@ This is the idea of QUEUING DELAY.
 | Complexity | Lower | Higher<br>&bull;Reservation requires end-to-end signaling protocol |
 | Cost Efficiency | Higher<br>&bull;No reservation<br>&emsp;&bull;Less cost involve | Lower |
 | Popularity | More popular | Less popular |
+
+### Overview of Delay in Packet-Switched Networks
+
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/92fb043e-8a53-46a3-9887-b04b334b45a0)
+
+### Queuing Delay and End-to-end Delay
+
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/66328573-9680-44ac-a246-a7956667f265)
+
+### Packet Loss and Throughput
+
+- ___Packet Loss___
+  - Packets arriving at a __full queue__ will cause __packet drop__
+    - Lost packet may be __retransmitted__
+
+- ___Throughput吞吐量___
+  - __Rate__ (bits/seconds) at which bits are transferred between 
+__source host and destination host__
+  - 2 types
+    - ___Instantaneous瞬间 throughput___
+      - Rate at a __given point in time__
+    - ___Average throughput___
+      - Rate over a __longer period of time__
+
+- ___Bottleneck link___
+  - Link on end-to-end path that constraints end-to-end throughput
+  - What is the bottleneck bandwidth in each of the following scenarios?
+    - __min{ RC, RS}__
+  - What is the end-to-end delay in each of the following scenarios?
+    - __F / min{ RC , RS}__
+   
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/06f24d1e-a18a-4a78-b77a-20dbb63c9957)
+
