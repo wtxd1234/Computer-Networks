@@ -12,7 +12,7 @@
     - No need to write software for network core
       - The network core doesn't run user applications
 - Application Architecture
-  - Two types
+  - 2 types
     1. ___Client-server architecture___
 ![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/83600b26-3a3a-441d-b43c-02ddb5b836eb)
        - __Server__
