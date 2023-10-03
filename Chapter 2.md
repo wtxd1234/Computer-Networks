@@ -14,7 +14,7 @@
 - Application Architecture
   - 2 types
     1. ___Client-server architecture___
-![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/83600b26-3a3a-441d-b43c-02ddb5b836eb)
+<br>![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/83600b26-3a3a-441d-b43c-02ddb5b836eb)
        - __Server__
          - Characteristic
            - Always-on host
@@ -33,7 +33,7 @@
          - Web server (server) service request from a browser (client)
            - Browsers do not communicate directly with each other
     2. ___Peer-to-peer architecture___
-![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/544655db-3052-4e43-981f-8db6a21c9f31)
+<br>![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/544655db-3052-4e43-981f-8db6a21c9f31)
        - __Peer__
          - Characteristic
            - Hosts communicate directly with each other
