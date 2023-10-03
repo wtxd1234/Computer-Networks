@@ -201,3 +201,23 @@ layer and network layer
 | Network Layer | Datagram | &bull;Determine routes between source host and destination host<br>&bull;Example: IP Protocol|
 | Link Layer (Ethernet, WiFi) | Frame | &bull;Transmit frame from a transmitting host to a receiving host over one link<br>&bull;Example: Ethernet, WiFi | 
 | Physical Layer | Bit | &bull; Transmit bits on physical media (e.g., wireless, fiber optic) | 
+
+### Encapsulation
+- Encapsulation
+  - At each layer, a packet consists
+    - Header
+    - Payload (a packet from the upper layer)
+- E.g:
+  - Segment = Message + Header of Transport Layer
+  - Datagram = Segment + Header of Network Layer
+  - Frame = Datagram + Header of Link Layer
+
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/a7224f57-e772-4ae2-a0ef-36f73f0dd533)
+
+- Packet switch
+  - Link-layer switch
+    - Used in access networks
+    - Consist of layer 1 and 2
+  - Router
+    - Used in core networks
+    - Consist layer 1, 2 and 3
