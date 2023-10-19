@@ -1,9 +1,6 @@
 # Test 1
-## What is the Internet? 
-
-## The Network Edge
-
-## The Network Core
+## What is the Internet?, The Network Edge, The Network Core
+see note [here] (Computer-Networks/Chapter 1.md)
 
 ## Delay, Loss, Throughput in Packet-Switched Networks
 
