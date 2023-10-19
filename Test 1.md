@@ -1,15 +1,15 @@
 # Test 1
-## What is the Internet?, The Network Edge, The Network Core
-see note [here] (Computer-Networks/Chapter 1.md)
+- What is the Internet?
+- The Network Edge 
+- The Network Core
+- Delay, Loss, Throughput in Packet-Switched Networks
+- Protocol Layers and Their Service Models
 
-## Delay, Loss, Throughput in Packet-Switched Networks
+see [Chapter 1](https://github.com/wtxd1234/Computer-Networks/blob/main/Chapter%201.md)
 
-## Protocol Layers and Their Service Models
+- Principles of Network Applications
+- The Web and HTTP 
+- Domain Name System
+- Peer-to-Peer Applications
 
-## Principles of Network Applications
-
-## The Web and HTTP 
-
-## Domain Name System
-
-## Peer-to-Peer Applications
+see [Chapter 2](https://github.com/wtxd1234/Computer-Networks/blob/main/Chapter%202.md)
