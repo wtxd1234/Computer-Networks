@@ -188,3 +188,8 @@
 ## 2.5 Peer-to-peer Applications: Client-Server vs. Peer-to-peer Architecture
 ![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/25895746-e2d6-473a-ad71-ea85c21012c4)
 
+### Peer-to-peer Applications:Distribution Time for Client-Server Architecture
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/9c678236-1ef6-4d8f-82e8-46db68b81c12)
+
+### Peer-to-peer Applications:Distribution Time for Peer-to-peer Architecture
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/b0c82b78-fdd2-46b2-84a9-c31ae4bfa10c)
