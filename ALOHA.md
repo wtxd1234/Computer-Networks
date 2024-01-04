@@ -10,9 +10,9 @@ Where $N$ is the number of nodes, and $p$ is the probability that a node transmi
 
 $$P(\text{success}) = 4 \times 0.6 \times (1-0.6)^{4-1}$$
 
-$$P(\text{success}) = 0.3456$$
+$$P(\text{success}) = 0.1536$$
 
-This means that there is a 34.56% chance that at least one node will successfully transmit in time slot 6. The formula is derived from the fact that a successful transmission occurs when exactly one node transmits and the rest do not. The probability of this event is the product of the probability that one node transmits ($p$) and the probability that the other nodes do not transmit ($(1-p)^{N-1}$). The total probability of success is then the sum of the probabilities of this event for each node ($N \times p \times (1-p)^{N-1}$).
+This means that there is a 15.36% chance that at least one node will successfully transmit in time slot 6. The formula is derived from the fact that a successful transmission occurs when exactly one node transmits and the rest do not. The probability of this event is the product of the probability that one node transmits ($p$) and the probability that the other nodes do not transmit ($(1-p)^{N-1}$). The total probability of success is then the sum of the probabilities of this event for each node ($N \times p \times (1-p)^{N-1}$).
 
 (5 marks)
 
