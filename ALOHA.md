@@ -24,7 +24,7 @@ Where $P(\text{failure})$ is the probability that no node succeeds in a given ti
 $$P(\text{first success}) = 0.6544^{5} \times 0.3456$$
 $$P(\text{first success}) = 0.0518$$
 
-This means that there is a 5.18% chance that the first successful transmission will occur in time slot 6. The formula is derived from the fact that the first success in time slot 6 requires that all previous time slots (1 to 5) have failed, and that time slot 6 has succeeded. The probability of this event is the product of the probability of failure in each time slot ($P(\text{failure})^{5}$) and the probability of success in time slot 6 $P(\text{success})$.
+This means that there is a 5.18% chance that the first successful transmission will occur in time slot 6. The formula is derived from the fact that the first success in time slot 6 requires that all previous time slots (1 to 5) have failed, and that time slot 6 has succeeded. The probability of this event is the product of the probability of failure in each time slot ($P(\text{failure})^{5}$) and the probability of success in time slot 6 ( $P(\text{success})$ ).
 
 (5 marks)
 
