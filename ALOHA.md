@@ -20,12 +20,12 @@ ii) The probability that the first successful transmission occurs in time slot 6
 
 $$P(\text{first success}) = P(\text{failure})^{5} \times P(\text{success})$$
 
-Where $P(\text{failure})$ is the probability that no node succeeds in a given time slot, and $P(\text{success})$ is the probability that at least one node succeeds in a given time slot. In this case, $P(\text{failure}) = 1 - P(\text{success}) = 1 - 0.3456 = 0.6544$. Therefore, the probability of the first success in time slot 6 is:
+Where $P(\text{failure})$ is the probability that no node succeeds in a given time slot, and $P(\text{success})$ is the probability that at least one node succeeds in a given time slot. In this case, $P(\text{failure}) = 1 - P(\text{success}) = 1 - 0.1536 = 0.8464$. Therefore, the probability of the first success in time slot 6 is:
 
-$$P(\text{first success}) = 0.6544^{5} \times 0.3456$$
-$$P(\text{first success}) = 0.0518$$
+$$P(\text{first success}) = 0.8464^{5} \times 0.1536$$
+$$P(\text{first success}) = 0.0667$$
 
-This means that there is a 5.18% chance that the first successful transmission will occur in time slot 6. The formula is derived from the fact that the first success in time slot 6 requires that all previous time slots (1 to 5) have failed, and that time slot 6 has succeeded. The probability of this event is the product of the probability of failure in each time slot ($P(\text{failure})^{5}$) and the probability of success in time slot 6 ( $P(\text{success})$ ).
+This means that there is a 6.67% chance that the first successful transmission will occur in time slot 6. The formula is derived from the fact that the first success in time slot 6 requires that all previous time slots (1 to 5) have failed, and that time slot 6 has succeeded. The probability of this event is the product of the probability of failure in each time slot ($P(\text{failure})^{5}$) and the probability of success in time slot 6 ( $P(\text{success})$ ).
 
 (5 marks)
 
