@@ -40,3 +40,9 @@
 ## Bellman-Ford Equation
 
 ![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/c2fc7b2d-85e5-4cd8-bf9c-da0b26fe7cd6)
+
+# Lecture 6
+
+## ALOHA
+
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/26d7d81f-8d5c-48a5-af4e-6a108d7694c8)
