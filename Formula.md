@@ -35,3 +35,8 @@
 ![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/d1b47f29-fbd4-424f-85cf-7b77a25749a9)
 ![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/cc3ff5c7-6c34-498a-91a8-438ee7537deb)
 
+# Lecture 5
+
+## Bellman-Ford Equation
+
+![image](https://github.com/wtxd1234/Computer-Networks/assets/41671135/c2fc7b2d-85e5-4cd8-bf9c-da0b26fe7cd6)
